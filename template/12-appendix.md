@@ -4,3 +4,6 @@
 
 *Can include mockups, sequence diagrams, etc.*
 
+![Architectural Diagram](../assets//architecturedia.png)
+
+
