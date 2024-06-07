@@ -1,6 +1,6 @@
 # The Value Proposition
 
-**StudentSphere** will act as an all-in-one platform to revitalize campus association life, creating more dynamism and offering greater visibility to associations while allowing students to discover more.
+**Student Sphere** will act as an all-in-one platform to revitalize campus association life, creating more dynamism and offering greater visibility to associations while allowing students to discover more.
 
 ### For Students:
 - **Centralized Communication**: Stay informed with real-time updates from all EPFL associations in one convenient platform. Access recent news, upcoming events, and association activities effortlessly.
@@ -15,4 +15,4 @@
 - **Streamlined Application Process**: Simplify the management of committee and staff applications, making it easier to recruit and engage students.
 - **Broadened Outreach**: Reach students who might not otherwise be aware of your association, fostering a more connected and informed campus community.
 
-By integrating these features into a single app, the EPFL Student Connect App enhances communication, simplifies event and application management, and promotes greater student involvement with campus associations, creating a more vibrant and engaged university community.
+By integrating these features into a single app, Student Sphere enhances communication, simplifies event and application management, and promotes greater student involvement with campus associations, creating a more vibrant and engaged university community.

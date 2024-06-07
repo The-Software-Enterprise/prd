@@ -4,7 +4,7 @@
 
 ## Motivation
 
-The StudentSphere MVP answer issues related with association life at EPFL:
+The Student Sphere MVP answer issues related with association life at EPFL:
 
 - Visibility of events and associations
 - Recruitment
