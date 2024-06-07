@@ -1,4 +1,4 @@
-# Overvie# Overview
+# Overview
 
 StudentSphere is an app designed to improve, fluidify, and most importantly, centralize communication between university campus associations and students. It allows associations to keep the rest of the university updated with their most recent news, events, and various activities. Through this app, event tickets, staffing, postulating to events, and joining committees are all centralized.
 
