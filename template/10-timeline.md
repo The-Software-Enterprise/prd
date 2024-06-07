@@ -45,7 +45,8 @@ The project manager, who should also be one of the developers, will be responsib
 - Implement the events creation page.
 - Implement the calendar page.
 
-### Week 6: Offline Mode
+### Week 6: Offline Mode and Design Improvements
+- Finalize the basic app design.
 - Implement offline mode functionalities.
 - Enable offline mode for associations.
 - Enable offline mode for the calendar.
