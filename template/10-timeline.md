@@ -8,7 +8,7 @@ The overall MVP development is planned to be executed in 12 weeks with a team of
 The project manager, who should also be one of the developers, will be responsible for the overall project management, including the timeline, resource planning, communication, and quality assurance.
 
 ## Team Responsibilities
-- **Front-end developers:** Responsible for the app design and creating Android tests for expected behavior.
+- **Front-end developers:** Responsible for the app design and creating tests for expected behavior.
 - **Back-end developers:** Responsible for implementing functionalities, managing database connections, ensuring security and optimization, and creating unit tests for the back-end.
 
 ## Milestone 1: Project Kickoff

@@ -8,11 +8,11 @@ Our application will be developed in Kotlin using the Jetpack Compose framework 
 
 ### Essential Screens
 
-In most cases, the application is visually composed of the title of the different parts of the application at the top, the content of the page in the center of the screen and, at the bottom of the screen, a menu made up of five parts.
+In most cases, the application is visually composed of the title of the different parts of the application at the top, the content of the page in the center of the screen and, at the bottom of the screen, a navigation bar made up of five parts.
 
 ### Dynamic View Rendering
 
-For most of our screens, the backend controls the UI changes through the view models we implemented. The Firebase database facilitates this by providing various collections that we manage. We created the DbServiceImpl class to handle our Firebase operations, and we use its functions across all our view models to update the UI accordingly.
+For most of our screens, the backend controls the UI changes through the view models we implemented. The Firebase database facilitates this by providing various collections that we manage. We created the DbServiceImpl class to handle our Firebase operations, and we use its functions across all our view models to update the UI accordingly. We use Hilt and Dagger to inject all Firebase objects in view models.
 
 ### Data Management
 
@@ -33,6 +33,16 @@ Initially, we considered using Tequila for authentication, but our professor adv
 ### Offline persistent data
 
 For offline persistent data, we utilized the native functionalities of Firestore who cached all the data at each call. This enabled us to store data locally and access it even when the user is offline. Additionally, to ensure data persistence even after closing the app, we used the Room database to store all associations.
+
+## Security Considerations
+
+### Authentication
+
+Firebase Authentication is a secure and reliable method for authenticating users. By using email authentication, we ensure that only authorized users can access the app. Firebase allows us to also simply verify the user's email address, which adds an extra layer of security. And a two-step verification process is also available to further secure the user's account.
+
+### Data Protection
+
+We store all data in Firestore, which is a secure and reliable database. Firestore provides built-in security rules that allow us to control access to our data. We can define who has access to read or write data, ensuring that only authorized users can access the database.
 
 ## Test Plan
 

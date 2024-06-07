@@ -5,16 +5,18 @@
 ## Motivation
 
 The StudentSphere MVP answer issues related with association life at EPFL:
--Visibility of events and associations
--Recruitment
--Event ticketing
--Event Staffing
--Centralisation of Association information
+
+- Visibility of events and associations
+- Recruitment
+- Event ticketing
+- Event Staffing
+- Centralisation of Association information
+
 These activities as an Association at EPFL is typically resolved by an intense and tiresome communication campaign through Instagram and Physical posters. Both not having as sole purpose to reunite students with same goals and interests. The key to our concept is centralisation of information. We want to create a place for each Association can manage their identity and management. In Association life at EPFL association mangers are also users that want to attend events and recurrent issue is the physical ticket system that is vulnerable to falsification and loss. We aim at changing the way we carry and use our tickets
 
 ### Proposed Solution
 
-A wallet system on the application for now, that allows for now users to enter the mail of the user and create a ticket for the user associated with the email. Then the user can scan a NFC tag to verify at the entrance if he has the correct ticket to enter. Staffs have staff tickets created as soon as they are accepted as staffs allowing a smoother management of tickets and a faster count how many people have tickets as staff or ass participants. The tickets are stored in general collection "tickets" where all tickets are stored with their attributes. The user on the other hand has the ticket ID he owns in a collection of his own so it is easier to fetch the tickets in firebase read calls. Tickets can now also be created by scanning a QRcode associated with the event.
+A wallet system on the application that allows users get tickets with a QR code or NFC scanner. Staffs have staff tickets created as soon as they are accepted as staffs allowing a smoother management of tickets and a faster count how many people have tickets as staff or ass participants. The tickets are stored in general collection "tickets" where all tickets are stored with their attributes. The user on the other hand has the ticket ID he owns in a collection of his own so it is easier to fetch the tickets in firebase read calls. Tickets can now also be created by scanning a QRcode associated with the event.
 
 ## User identification (Scrapping)
 
@@ -36,6 +38,7 @@ Every semester we are bombarded by emails for recruitment for events and associa
 
 Each Association has its own page that they can manage, for this we have  3 types of elements, events, news and open positions that can modified and customised to the association's need. Event item can have staffs and create tickets, open positions can allow users to join associations and news item can inform students on updates or in a near future trigger notifications. They can be modified with images and descriptions. The organisation of the page is made so the user has as much freedom without making it a tedious task.
 
-
 ##  Architectural Diagram
+
+cf. Appendix 1
 
