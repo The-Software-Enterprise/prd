@@ -40,3 +40,5 @@ Each Association has its own page that they can manage, for this we have  3 type
 ##  Architectural Diagram
 
 ![Architectural Diagram](../assets//architecturedia.png)
+
+__________________________
